@@ -119,7 +119,7 @@ const phdStudents = [
   },
 
   {
-    name: "Dr. Iheanyi Ajuzie Peter",
+    name: "Dr. Iheanyi Peter-Ajuzie",
     role: "Current PhD Student",
     focus: "West Nile Virus surveillance in wildlife ",
     img: "iheanyi_ajuzie_peter.jpg",
@@ -134,9 +134,9 @@ const phdStudents = [
     contact: "chinoscnc@gmail.com"
   },
   {
-    name: "Dr. Harun Galadima",
+    name: "Dr. Haruna Galadima",
     role: "PhD Student",
-    focus: "West Nile Virus surveillance in wildlife.",
+    focus: "Crimean Congo Haemorrhagic virus in wildlife and Vector.",
     img: "galadima_haruna.jpg",
     contact: "hbgaladima@unimaid.edu.ng"
   }
@@ -163,7 +163,7 @@ const team = [
     name: "Dr.Isaac Arowolo",
     role: "Research Assistant",
     focus: "Reproductive biology",
-    img: "arowolo_Isaac.jpg",
+    img: "arowolo_isaac.jpg",
     contact: "arowoloisaac344@gmail.com"
   },
   {
@@ -200,7 +200,7 @@ const team = [
     role: "M.Sc. Student",
     focus: "Environmental sentinel research",
     img: "alawonde_samantha.jpg",
-    contact: ""
+    contact: "alawodesamantha18@gmail.com"
   },
   
   {
