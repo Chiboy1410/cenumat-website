@@ -386,7 +386,7 @@ if (revealTargets.length && !reduceMotion && 'IntersectionObserver' in window) {
         revealObserver.unobserve(entry.target);
       }
     });
-  }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+  }, { threshold: 0, rootMargin: '0px 0px -10% 0px' });
   revealTargets.forEach(el => revealObserver.observe(el));
 } else {
   revealTargets.forEach(el => el.classList.add('is-visible'));
