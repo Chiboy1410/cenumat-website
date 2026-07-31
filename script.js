@@ -80,15 +80,15 @@ const collaborators = [
 
 const collaborators2 = [
   {
-    name: "Prof. Olushola Ojurongbe",
-    role: "Collaborator",
-    focus: "",
-    img: "ojurongbe_olushola.jpg"
+    name: "Prof. Olusola Ojurongbe",
+    role: "Collaborator — Dept. of Medical Microbiology & Parasitology, Ladoke Akintola University of Technology (LAUTECH)",
+    focus: "Malaria and molecular parasitology, infectious disease diagnostics",
+    img: "ojurongbe_olusola.jpg"
   },
   {
     name: "Prof. Ademola Oyagbemi",
-    role: "Collaborator",
-    focus: "",
+    role: "Collaborator — Dept. of Veterinary Physiology, Biochemistry & Pharmacology, University of Ibadan",
+    focus: "Cardiovascular pharmacology, neuropharmacology & toxicology",
     img: "oyagbemi_ademola.jpg"
   }
 ];
