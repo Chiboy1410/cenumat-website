@@ -78,6 +78,21 @@ const collaborators = [
 
 ];
 
+const collaborators2 = [
+  {
+    name: "Prof. Olushola Ojurongbe",
+    role: "Collaborator",
+    focus: "",
+    img: "ojurongbe_olushola.jpg"
+  },
+  {
+    name: "Prof. Ademola Oyagbemi",
+    role: "Collaborator",
+    focus: "",
+    img: "oyagbemi_ademola.jpg"
+  }
+];
+
 const postdocAssociates = [
   {
     name: "Dr. Amany D. Ladagu",
@@ -246,6 +261,13 @@ const team = [
     contact: "debbiefat2000@gmail.com"
   },
   {
+    name: "Oluwadarasimi Otunla",
+    role: "Research Intern",
+    focus: "",
+    img: "otunla_oluwadarasimi.jpg",
+    contact: "Oluwadarasimi.otunla@gmail.com"
+  },
+  {
     name: "Jemima Olasoji",
     role: "Administrative officer",
     focus: "",
@@ -283,6 +305,24 @@ function renderCollaborators() {
   if (!grid) return;
 
   grid.innerHTML = collaborators.map(person => `
+    <article class="collab-card">
+      <div class="collab-photo">
+        <img src="${person.img}" alt="${person.name}" loading="lazy" ${withFallback(person)}>
+      </div>
+      <div class="collab-body">
+        <p class="collab-role">${person.role}</p>
+        <h3 class="collab-name">${person.name}</h3>
+        <p class="collab-focus">${person.focus}</p>
+      </div>
+    </article>
+  `).join('');
+}
+
+function renderCollaborators2() {
+  const grid = document.getElementById('collab2Grid');
+  if (!grid) return;
+
+  grid.innerHTML = collaborators2.map(person => `
     <article class="collab-card">
       <div class="collab-photo">
         <img src="${person.img}" alt="${person.name}" loading="lazy" ${withFallback(person)}>
@@ -339,7 +379,6 @@ const pastMembers = [
   { name: "Dr. Ayodeji Lijoka", role: "Alumnus - DVM, MSc" },
   { name: "Dr.Levi Usende", role: "AlumnusDVM, MSc, PhD" },
   { name: "Dr.Idris Azeez", role: "Alumnus -DVM, MSc, PhD" },
-  { name: "Oluwadarasimi Otunla", role: "Alumnus" },
   { name: "Ejiro Ighorodje", role: "Alumnus" },
   { name: "Irene Omile", role: "Alumnus" },
   { name: "Jude Abeje", role: "Alumnus" },
@@ -370,6 +409,7 @@ function renderPastMembers() {
 }
 
 renderCollaborators();
+renderCollaborators2();
 renderGrid('postdocGrid', postdocAssociates);
 renderGrid('phdGrid', phdStudents);
 renderGrid('teamGrid', team);
