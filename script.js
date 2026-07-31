@@ -261,13 +261,6 @@ const team = [
     contact: "debbiefat2000@gmail.com"
   },
   {
-    name: "Oluwadarasimi Otunla",
-    role: "Research Intern",
-    focus: "",
-    img: "otunla_oluwadarasimi.jpg",
-    contact: "Oluwadarasimi.otunla@gmail.com"
-  },
-  {
     name: "Jemima Olasoji",
     role: "Administrative officer",
     focus: "",
@@ -379,6 +372,7 @@ const pastMembers = [
   { name: "Dr. Ayodeji Lijoka", role: "Alumnus - DVM, MSc" },
   { name: "Dr.Levi Usende", role: "AlumnusDVM, MSc, PhD" },
   { name: "Dr.Idris Azeez", role: "Alumnus -DVM, MSc, PhD" },
+  { name: "Oluwadarasimi Otunla", role: "Alumnus" },
   { name: "Ejiro Ighorodje", role: "Alumnus" },
   { name: "Irene Omile", role: "Alumnus" },
   { name: "Jude Abeje", role: "Alumnus" },
